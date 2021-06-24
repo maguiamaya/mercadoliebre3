@@ -1,0 +1,56 @@
+
+*{
+    box-sizing: border-box;
+
+        padding: 0;
+        margin: 0;
+    
+      }
+}
+
+
+ main{
+    width: 90%;
+
+
+} 
+header {width: 90%;
+}
+
+footer{
+     width: 90%;
+}
+html{
+    font-size: 16px;
+   
+   }
+body {text-align: center;
+    margin: 0;
+    }
+
+img{
+    width: 100%;
+    height: auto; /* siempre en imagenes  */
+    display: block;
+}
+
+
+
+:root{
+--color-amarillo: #EAC926;
+
+
+    --color-azul: #03264C;
+
+
+    --color-celeste: #1259c3;
+
+    --color-grisclaro:  #666;
+
+
+    --color-grisoscuro:  #ebebeb;
+
+    --color-verde: #39b54a;
+
+}
+ 

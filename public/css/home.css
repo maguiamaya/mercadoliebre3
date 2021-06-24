@@ -1,0 +1,133 @@
+.home{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+.home header{
+    background-color: var(--color-amarillo);
+    width: 100%;
+}
+.home li{
+    list-style: none;
+    text-align: left;
+}
+
+
+
+.home div nav ul a{
+    display: none;
+    text-decoration: none;
+    font-size: 1em;
+
+
+
+}
+
+h2{
+    font-size: 24px;
+
+
+}
+
+h5{
+    font-size: 18px;
+
+}
+h4{
+    font-size: 16px;
+}
+
+header div i{
+   size: 50px;
+}
+
+.burger-menu{
+    color: white;
+    display: inline-block;
+    background-color: #1f53c3;
+font-size: 1.3em;
+margin: auto;
+padding: 0.4em;
+border-radius: 0.3em;
+margin-bottom: 1em;
+}
+
+
+.home main section{
+    margin-bottom: 10px;
+}
+.home footer{
+    width: 100%;
+    margin-top: 30px;
+background-color:aliceblue;
+
+}
+
+
+
+
+.home footer div i{
+    margin-top: 5em;
+    width: 100%;
+}
+
+
+.articulo {
+    width: 30em;
+    background: #ebebeb;
+    padding: 15px;
+    margin: auto;
+   margin-top: 100px;
+   margin-bottom: 15px;
+    border:1px solid #ebebeb;
+   color:grey;
+    text-align: left;
+   
+}
+
+.art{
+    
+    color: #000;
+    margin-top: 2em;
+   font-weight: 200 ;
+}
+
+.desc{
+    color:#39b54a ;
+}
+
+.imgs{
+    font-size: 2em;
+    margin:0.8em;
+    color: #39b54a;
+}
+
+.detalle{
+    margin: 1.2em;
+}
+.resp{
+display: none;
+}
+/* .............................................. */
+
+@media (min-width:361px){ /* de 361 para arriba; pasa todo lo q se detalla abajo */
+    .home header{  
+
+    
+    }
+.articulo{
+    box-shadow: 7px 13px 37px #000;
+}
+
+.resp{
+    display: initial;
+}
+
+.burger-menu{
+    display: none;
+}
+.home div nav ul a{
+    display: initial;
+}
+}
